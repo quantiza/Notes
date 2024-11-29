@@ -1,3 +1,17 @@
+# docsify
 
+基础
 基于docsify的基本操作&配置
 https://cloud.tencent.com/developer/article/2086821
+
+
+插件
+
+- Mermaid
+- tabs https://jhildenbiddle.github.io/docsify-tabs/#/
+- Plugins https://docsify.js.org/#/awesome?id=plugins
+
+
+案例
+
+- https://leader.js.cool/basic/framework/chatgpt
