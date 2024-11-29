@@ -1,4 +1,18 @@
-# Headline
 
-> An awesome project.
-> By me.
+```charty
+{
+  "title":   "Pie chart",
+  "caption": "With a caption",
+  "type":    "pie",
+  "options": {
+	"legend":  true,
+    "labels":  true,
+    "numbers": true
+  },
+  "data": [
+      { "label": "2012", "value": 1024 },
+	  { "label": "2010", "value": 200 },
+	  { "label": "2011", "value": 560 }
+  ]
+}
+```

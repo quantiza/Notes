@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -8,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -15,8 +17,18 @@
       name: '',
       repo: '',
       latex: {
-        inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
-        displayMath  : [['$$', '$$']],               // default
+        inlineMath: [['$', '$'], ['\\(', '\\)']], // default
+        displayMath: [['$$', '$$']],               // default
+      },
+
+      tabs: {
+        persist: true, 
+        theme: 'material' 
+      },
+
+      charty: {
+        theme: "#EE5599",
+        mode: "light"
       }
     }
   </script>
@@ -26,6 +38,18 @@
   <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <!--  docsify-latex plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+  <!-- jsDelivr charty -->
+  <script src="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest"></script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css">
+
+  <!-- docsify: tabs -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@latest"></script>
+
+  <!-- local: docsify-charty -->
+  <!-- <script src="https://unpkg.com/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css"> -->
 
 </body>
+
 </html>
