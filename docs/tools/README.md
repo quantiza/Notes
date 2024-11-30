@@ -11,8 +11,7 @@ $$
 
 & \int x e^x \sin x\ dx = \frac{1}{2}e^x (\cos x - x \cos x + x \sin x)  \\
 
-& \int x e^x \cos x\ dx = \frac{1}{2}e^x (x \cos x 
-- \sin x + x \sin x)  \\
+& \int x e^x \cos x\ dx = \frac{1}{2}e^x (x \cos x - \sin x + x \sin x)  \\
 
 \end{align}
 $$
